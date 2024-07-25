@@ -1,0 +1,69 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Lista de automóviles */
+#car-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.car {
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.car:hover {
+    transform: scale(1.05);
+}
+
+/* Sección de comentarios */
+#comments {
+    background-color: #f9f9f9;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+#comment {
+    width: 100%;
+    height: 100px;
+}
+
+#comment-list {
+    margin-top: 1em;
+}
+
+/* Servicio de atención al cliente */
+#customer-service {
+    background-color: #f1f1f1;
+    padding: 1em;
+    margin-top: 2em;
+    text-align: center;
+}
+
+/* Pies de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
